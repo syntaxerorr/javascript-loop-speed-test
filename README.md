@@ -5,6 +5,11 @@ There are many ways to iterate over a data set.
 This script will iterate over an array of integers and add them together.
 
 Which is fastest?
+ForLoop
+ForOf
+ForEach
+WhileLoop
+Reduce
 
 ### To build
 `tsc loop-tests.ts`
