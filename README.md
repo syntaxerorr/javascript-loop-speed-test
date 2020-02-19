@@ -2,7 +2,7 @@
 
 There are many ways to iterate over a data set. 
 
-This script will iterate over an array of numbers and add them together.
+This script will iterate over an array of integers and add them together.
 
 Which is fastest?
 
