@@ -115,6 +115,7 @@ function calculateTime(loop: LoopInfo): LoopResults {
   const startTime = performance.now();
   const arrayTotal = loop.method;
   const endTime = performance.now();
+  //console.log(`name: ${loop.name}\nloop sum: ${arrayTotal}`); // uncomment to verify totals
   return ({name: loop.name, arrayTotal: arrayTotal, exeTime: (endTime - startTime)});
 }
 
